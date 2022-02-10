@@ -1,14 +1,24 @@
-
 function setup() {
-  createCanvas(400,400);
+  createCanvas(600,600);
 }
 
 function draw() 
 {
-  background(30);
+  background("black");
+
+    if (keyDown ("p")) {
+        
+      fill ("white");
+        text ("You are broxa.",100,200);
+      }
+
+      if (keyDown ("b")) {
+        
+        fill ("white");
+        text ("You are broxa.",100,200);
+      }
 
 }
-
 
 
 
